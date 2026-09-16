@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mayesha Bintha Mizan — Portfolio</title>
+<meta name="description" content="Personal portfolio of Mayesha Bintha Mizan — PhD researcher in AI, ML, and Computer Vision. Projects, about, resume and contact." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<header class="site-header" id="top">
+  <nav class="nav container">
+    <a href="#top" class="logo">Y<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HOME -->
+  <section class="hero container" id="home">
+    <div class="hero-text">
+      <p class="eyebrow">Hi, my name is</p>
+      <h1>Mayesha Bintha Mizan.</h1>
+      <h2 class="hero-subtitle">I research AI, vision, and language models.</h2>
+      <p class="hero-desc">
+        I'm a PhD student in Computer Science at the University of Georgia, working on
+        computer vision, deep learning, and LLM agents. I enjoy turning hard research
+        problems into working systems.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="photo-placeholder" aria-hidden="true">
+        <span>Your Photo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hello! I'm Mayesha, a Ph.D. student in Computer Science at the
+            University of Georgia (GPA 4.00/4.00), researching AI, machine learning,
+            NLP, computer vision, and LLM agents. Before starting my Ph.D., I earned
+            a B.Sc. in Information and Communication Engineering from the Bangladesh
+            University of Professionals, where my thesis on dimensionality reduction
+            in handwritten digit recognition was published with Springer.
+          </p>
+          <p>
+            I currently work as a Graduate Teaching Assistant at UGA, and previously
+            served as a Graduate Research Assistant at Augusta University. My path
+            here also passed through industry — as a bank officer and an industrial
+            trainee at a telecom company — before I moved fully into research.
+          </p>
+          <p>Tools and technologies I work with:</p>
+          <ul class="skills-list">
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>MySQL &amp; Oracle</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class="about-media">
+          <div class="photo-placeholder small" aria-hidden="true">
+            <span>Photo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">02.</span> Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">▹</span>
+          </div>
+          <h3>3D Reconstruction of Underwater Coral Images</h3>
+          <p>Implemented a deep learning-based 3D reconstruction pipeline for underwater coral imagery, processing challenging real-world visual data to recover spatial structure and geometry.</p>
+          <ul class="tech-tags">
+            <li>Deep Learning</li><li>Computer Vision</li><li>Python</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">▹</span>
+          </div>
+          <h3>Image Reconstruction from fMRI Signals</h3>
+          <p>Built a deep latent-space model that reconstructs natural images directly from high-dimensional fMRI brain activity, with residual encoders and U-Net refinement mapping neural signals into Stable Diffusion's latent space.</p>
+          <ul class="tech-tags">
+            <li>Stable Diffusion</li><li>U-Net</li><li>PyTorch</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">▹</span>
+          </div>
+          <h3>Security Testing of LLM Agents</h3>
+          <p>Conducted systematic red-teaming and prompt-injection testing of tool-using LLM agents, building an automated evaluation pipeline to analyze unsafe tool execution and attack success patterns.</p>
+          <ul class="tech-tags">
+            <li>LLM Agents</li><li>Red-Teaming</li><li>Security</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">▹</span>
+          </div>
+          <h3>ASD Detection Using Eye-Tracking Data</h3>
+          <p>Developed a CNN-based model to detect Autism Spectrum Disorder from eye scanpath images, integrating SHAP-based explainability to visualize attention maps behind each prediction.</p>
+          <ul class="tech-tags">
+            <li>CNN</li><li>SHAP</li><li>Explainable AI</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div class="other-projects">
+        <h3 class="other-projects-title">Other Projects</h3>
+        <ul class="other-projects-list">
+          <li>
+            <span class="op-name">Personal Portfolio</span>
+            <span class="op-stack">HTML, CSS, Bootstrap</span>
+            <a href="https://github.com/mayesha80/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            <span class="op-name">BUP CF Website</span>
+            <span class="op-stack">PHP, CSS, JS, Bootstrap</span>
+            <a href="https://github.com/methelfaiyaz/bupcf" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            <span class="op-name">Hospital Management System</span>
+            <span class="op-stack">Java, MySQL</span>
+          </li>
+          <li>
+            <span class="op-name">E-Ticket Reservation System</span>
+            <span class="op-stack">Java</span>
+          </li>
+          <li>
+            <span class="op-name">Library Management System</span>
+            <span class="op-stack">Python</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section" id="resume">
+    <div class="container resume-section">
+      <h2 class="section-title"><span class="section-num">03.</span> Resume</h2>
+      <p class="resume-desc">
+        Want the full picture? Download my resume for a complete overview of my
+        experience, education, and skills.
+      </p>
+      <a href="resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact-section">
+      <h2 class="section-title centered"><span class="section-num">04.</span> Get In Touch</h2>
+      <p class="contact-desc">
+        I'm currently open to new opportunities. Whether you have a question,
+        a project in mind, or just want to say hi — my inbox is always open.
+      </p>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Say hello..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+
+      <div class="social-links">
+        <a href="mailto:mb69711@uga.edu" aria-label="Email">Email</a>
+        <a href="https://github.com/mayesha80" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/mayesha80/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=spz1XmIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">Scholar</a>
+        <a href="https://computing.uga.edu/directory/people/mayesha-bintha-mizan" target="_blank" rel="noopener noreferrer" aria-label="UGA Faculty Directory">UGA Profile</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Designed &amp; built by Mayesha Bintha Mizan · <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
