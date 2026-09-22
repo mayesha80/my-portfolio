@@ -197,21 +197,17 @@ ul { list-style: none; }
 
 .hero-media { flex-shrink: 0; }
 
-.photo-placeholder {
+.profile-photo {
   width: 280px;
   height: 280px;
   border-radius: 16px;
-  border: 2px dashed var(--border);
-  background: var(--bg-elevated);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-secondary);
-  font-family: var(--font-heading);
-  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  object-position: center 30%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 
-.photo-placeholder.small {
+.profile-photo.small {
   width: 220px;
   height: 220px;
   border-radius: 12px;
@@ -524,7 +520,7 @@ ul { list-style: none; }
 
   .hero-actions { justify-content: center; }
 
-  .photo-placeholder { width: 200px; height: 200px; }
+  .profile-photo { width: 200px; height: 200px; }
 
   .about-grid { grid-template-columns: 1fr; }
 
