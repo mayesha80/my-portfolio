@@ -148,7 +148,7 @@ ul { list-style: none; }
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 3rem;
   padding-top: 72px;
   position: relative;
@@ -194,8 +194,6 @@ ul { list-style: none; }
   gap: 1rem;
   flex-wrap: wrap;
 }
-
-.hero-media { flex-shrink: 0; }
 
 .profile-photo {
   width: 280px;
