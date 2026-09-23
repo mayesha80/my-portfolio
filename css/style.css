@@ -145,12 +145,11 @@ ul { list-style: none; }
 
 /* ---------- Hero ---------- */
 .hero {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 3.5rem;
-  padding-top: 72px;
+  padding: 120px 0 3rem;
   position: relative;
   z-index: 1;
 }
@@ -243,7 +242,7 @@ ul { list-style: none; }
 
 /* ---------- Sections ---------- */
 .section {
-  padding: 7rem 0;
+  padding: 2.75rem 0;
   position: relative;
   z-index: 1;
 }
