@@ -211,20 +211,21 @@ ul { list-style: none; }
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
+  background: var(--accent-dim);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-secondary);
+  color: var(--accent);
   transition: all 0.2s ease;
 }
 
 .icon-btn svg { width: 18px; height: 18px; }
 
 .icon-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: var(--accent-dim);
+  background: var(--accent);
+  color: var(--bg);
+  transform: translateY(-2px);
 }
 
 .profile-photo {
